@@ -13,7 +13,7 @@ export class GameManager extends Component {
     @property({ type: Prefab })
     public boxPrefab: Prefab | null = null;
     @property({ type: CCInteger })
-    public roadLength: number = 10;
+    public roadLength: number = 50;
     private _road: BlockType[] = [];
 
     start() {
